@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline:none;
+    box-shadow: none !important;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+.offcanvas-body a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.offcanvas-body ul li {
+    margin-bottom: 10px;
+}
+
+.color_li a {
+    color: rgb(29, 78, 216);
+}
+
+.color_li:hover a {
+    color: rgb(29, 78, 216) !important;
+}
+
+.offcanvas-body a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.offcanvas-end {
+    width: 300px;
+    background-color: rgb(255, 247, 244);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: rgb(255, 247, 244);
+}
+
+header {
+    height: 80px;
+    background-color: rgb(255, 247, 244);
+    border-bottom: 1px solid black;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .menu_icon {
+    cursor: pointer;
+}
+
+header .menu_icon i {
+    font-size: 30px;
+}
+
+section#maincup {
+    background: url("../images/main_cup.png") center center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+section#games a {
+    color: rgb(29, 78, 216);
+    text-decoration: none;
+    display: block;
+}
+
+section#games a h2 {
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+section#games a:hover h2 {
+    text-decoration: underline;
+}
+
+section#games a:hover img {
+    transform: translateY(-10px);
+}
+
+section#games a img {
+    border-radius: 15px;
+    transition: all 0.25s;
+}
+
+footer {
+    background-color: rgb(29, 78, 216);
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a img {
+    width: 100px;
+}
+
+@media screen and (max-width:321px) {
+    .offcanvas-end {
+        width:100%;
+    }
+}
